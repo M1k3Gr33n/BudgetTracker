@@ -6,51 +6,49 @@ body, html {
 .container {
     display:flex;
     flex-wrap:wrap;
-    background-color: violet;
-    outline: 2px dotted #f06b06;
+    background-color: rgb(58, 58, 58);
     height:40rem;
     width:70em;
 }
 
-.debits {
-    background-color: red;
-    outline: 2px dotted red;
-    width: 25rem;
-    height: 20%;
+.debitsScreen, .leftOverScreen, .creditsScreen {
+    background-color: rgb(255, 255, 255);
+    margin-top:20px;
+    margin-left:30px;
+    padding-top:20px;
+    width:75%;
+    height:30%;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border-radius: 15px;
 }
 
-.debitsScreen, .leftOverScreen, .creditsScreen {
-    border: 2px dotted rgb(172, 1, 1);
-    background-color: rgb(255, 255, 255);
-    margin:auto;
-    width:75%;
-    height:75%;
+.debits, .credits, .leftOver {
+    background-color: #F25252;
+    width: 25rem;
+    height: 20%;
+    text-align:center;
 }
 
 .leftOver {
-    background-color: purple;
-    outline: 2px dotted red;
+    background-color: #BFB063;
     width: 20rem;
-    height: 20%;
 }
 
 .credits {
-    background-color: green;
-    outline: 2px dotted red;
-    width: 25rem;
-    height: 20%;
+    background-color: #94BF36
 }
 
 .calendarLayout {
-    outline: 2px dotted red;
-    background-color: aqua;
+    background-color: #A6376B;
     height:80%;
     width:100%;  
+    text-align: center;
 }
 
 .calendar {
     display:grid;
-    outline:2px dotted red;
 }
 
 .calendarRows {
@@ -59,10 +57,18 @@ body, html {
 }
 
 .calendarDays {
-    background-color: #D8D9DB;
-    color:black;
-    border:2px solid black;
+    background-color: #BF365A;
+    color:white;
+    border:2px solid #b43154;
     font-size: 20px;
     height:78px;
     flex-basis:24.5%;
+}
+
+form {
+    display:inline-flex;
+    margin-left: 100%;
+    height:100%;
+    flex-direction: column;
+    border: 2px dotted red;
 }
