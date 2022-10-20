@@ -12,144 +12,180 @@
     <!--- have a section for debits, credits, and calander on bottom section for plug in expenses-->
     <!--- the debit section will total everything from the calanders and-->
     <!--- subtract from credits. Display in center box labeled Monthly remainder-->
+    <div class="expenseList">
+        <form>
+            <label for="expense">Expense:</label>
+            <input type="text" id="expense" name="expense">
+            <hr>
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount">
+            <hr>
+            <label for="date">Date:</label>
+            <br>
+            <input type="number" id="date" name="date">
+            <hr>
+            <button type="button">Add Expense</button>
+        </form>
+        <table>
+            <tr>
+                <td>Expense 1</td>
+                <td>Expense 2</td>
+                <td>Expense 3</td>
+                <td>Expense 4</td>
+            </tr>
+            <tr>
+                <td>Expense 5</td>
+                <td>Expense 6</td>
+                <td>Expense 7</td>
+                <td>Expense 8</td>
+            </tr>
+            <tr>
+                <td>Expense 9</td>
+                <td>Expense 10</td>
+                <td>Expense 11</td>
+                <td>Expense 12</td>
+            </tr>
+        </table>
+    </div>
     <div class="container">
-            <div class="debits">
-                <div class="debitsScreen">
-                    0
-                </div>
-                Debits
+        
+        <div class="debits">
+            <div class="debitsScreen">
+                0
             </div>
+            Debits
+        </div>
 
-            <div class="leftOver">
-                <div class="leftOverScreen">
-                    0
-                </div>
-                LeftOver
+        <div class="leftOver">
+            <div class="leftOverScreen">
+                0
             </div>
+            LeftOver
+        </div>
 
-            <div class="credits">
-                <div class="creditsScreen">
-                    0
-                </div>
-                Credits
+        <div class="credits">
+            <div class="creditsScreen">
+                0
             </div>
+            Credits
+        </div>
 
-            <div class="calendarLayout">
-                Calendar
-                <section class="calendar">
-                    <div class="calendarRows">
-                        <div class="calendarDays">
-                            1
-                        </div>
-                        <div class="calendarDays">
-                            2
-                        </div>
-                        <div class="calendarDays">
-                            3
-                        </div>
-                        <div class="calendarDays">
-                            4
-                        </div>
-                        <div class="calendarDays">
-                            5
-                        </div>
-                        <div class="calendarDays">
-                            6
-                        </div>
+        <div class="calendarLayout">
+            Calendar
+            <section class="calendar">
+                <div class="calendarRows">
+                    <div class="calendarDays">
+                        1
                     </div>
-                    <div class="calendarRows">
-                        <div class="calendarDays">
-                            7
-                        </div>
-                        <div class="calendarDays">
-                            8
-                        </div>
-                        <div class="calendarDays">
-                            9
-                        </div>
-                        <div class="calendarDays">
-                            10
-                        </div>
-                        <div class="calendarDays">
-                            11
-                        </div>
-                        <div class="calendarDays">
-                            12
-                        </div>
+                    <div class="calendarDays">
+                        2
                     </div>
-                    <div class="calendarRows">
-                        <div class="calendarDays">
-                            13
-                        </div>
-                        <div class="calendarDays">
-                            14
-                        </div>
-                        <div class="calendarDays">
-                            15
-                        </div>
-                        <div class="calendarDays">
-                            16
-                        </div>
-                        <div class="calendarDays">
-                            17
-                        </div>
-                        <div class="calendarDays">
-                            18
-                        </div>
+                    <div class="calendarDays">
+                        3
                     </div>
-                    <div class="calendarRows">
-                        <div class="calendarDays">
-                            19
-                        </div>
-                        <div class="calendarDays">
-                            20
-                        </div>
-                        <div class="calendarDays">
-                            21
-                        </div>
-                        <div class="calendarDays">
-                            22
-                        </div>
-                        <div class="calendarDays">
-                            23
-                        </div>
-                        <div class="calendarDays">
-                            24
-                        </div>
+                    <div class="calendarDays">
+                        4
                     </div>
-                    <div class="calendarRows">
-                        <div class="calendarDays">
-                            25
-                        </div>
-                        <div class="calendarDays">
-                            26
-                        </div>
-                        <div class="calendarDays">
-                            27
-                        </div>
-                        <div class="calendarDays">
-                            28
-                        </div>
-                        <div class="calendarDays">
-                            29
-                        </div>
-                        <div class="calendarDays">
-                            30
-                        </div>
+                    <div class="calendarDays">
+                        5
                     </div>
-                    <div class="calendarRows">
-                        <div class="calendarDays">
-                            31
-                        </div>
+                    <div class="calendarDays">
+                        6
                     </div>
-                </section>
-                <form>
-                    <label for="expense">Expense:</label>
-                    <input type="text" id="expense" name="expense">
-                </form>
+                </div>
+                <div class="calendarRows">
+                    <div class="calendarDays">
+                        7
+                    </div>
+                    <div class="calendarDays">
+                        8
+                    </div>
+                    <div class="calendarDays">
+                        9
+                    </div>
+                    <div class="calendarDays">
+                        10
+                    </div>
+                    <div class="calendarDays">
+                        11
+                    </div>
+                    <div class="calendarDays">
+                        12
+                    </div>
+                </div>
+                <div class="calendarRows">
+                    <div class="calendarDays">
+                        13
+                    </div>
+                    <div class="calendarDays">
+                        14
+                    </div>
+                    <div class="calendarDays">
+                        15
+                    </div>
+                    <div class="calendarDays">
+                        16
+                    </div>
+                    <div class="calendarDays">
+                        17
+                    </div>
+                    <div class="calendarDays">
+                        18
+                    </div>
+                </div>
+                <div class="calendarRows">
+                    <div class="calendarDays">
+                        19
+                    </div>
+                    <div class="calendarDays">
+                        20
+                    </div>
+                    <div class="calendarDays">
+                        21
+                    </div>
+                    <div class="calendarDays">
+                        22
+                    </div>
+                    <div class="calendarDays">
+                        23
+                    </div>
+                    <div class="calendarDays">
+                        24
+                    </div>
+                </div>
+                <div class="calendarRows">
+                    <div class="calendarDays">
+                        25
+                    </div>
+                    <div class="calendarDays">
+                        26
+                    </div>
+                    <div class="calendarDays">
+                        27
+                    </div>
+                    <div class="calendarDays">
+                        28
+                    </div>
+                    <div class="calendarDays">
+                        29
+                    </div>
+                    <div class="calendarDays">
+                        30
+                    </div>
+                </div>
+                <div class="calendarRows">
+                    <div class="calendarDays">
+                        31
+                    </div>
+                </div>
+
+     
+            </section>
+
         </div>
 
     </div>
+
     
 </body>
 </html>
