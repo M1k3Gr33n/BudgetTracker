@@ -22,9 +22,14 @@
             <hr>
             <label for="date">Date:</label>
             <br>
-            <input type="number" id="date" name="date">
+            <input type="date" id="date" name="date">
+
+            <button type="button" class="expenseButton">Add Expense</button>
             <hr>
-            <button type="button">Add Expense</button>
+            <label for="income">Monthly Income:</label>
+            <input type="number" id="income" name="income">
+
+            <button type="button" class="incomeButton">Add Income</button>
         </form>
         <table>
             <tr>
@@ -71,7 +76,11 @@
         </div>
 
         <div class="calendarLayout">
-            Calendar
+            <ul>
+                <li class="prev">&#8592;</li>
+                <li class="next">&#8594;</li>
+                <li>Calendar<span style="font-size:18px"></span></li>
+            </ul>
             <section class="calendar">
                 <div class="calendarRows">
                     <div class="calendarDays">
@@ -186,6 +195,6 @@
 
     </div>
 
-    
+    <script src="./javascript.js"></script>
 </body>
 </html>

@@ -52,6 +52,24 @@ body, html {
     display:grid;
 }
 
+/* Previous button inside month header */
+.calendarLayout .prev {
+    color:white;
+    float:left;
+    margin-left: 200px;
+  }
+  
+  /* Next button */
+  .calendarLayout .next {
+    color:white;
+    float:right;
+    margin-right: 200px;
+  }
+
+ul {
+    list-style-type: none;
+}
+
 .calendarRows {
     display:flex;
     flex-flow: row nowrap;
@@ -67,6 +85,7 @@ body, html {
 }
 
 form {
+    background-color: #A6376B;
     position:absolute;
     right:0;
     top:0;
@@ -75,7 +94,12 @@ form {
     border: 2px dotted red;
 }
 
+#expense,#amount,#date ,#income{
+    background-color: #BF365A;
+}
+
 table {
+    background-color: #A6376B;
     border:2px dotted blue;
     position:absolute;
     right:0;
