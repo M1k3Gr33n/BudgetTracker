@@ -12,7 +12,8 @@
     <!--- have a section for debits, credits, and calander on bottom section for plug in expenses-->
     <!--- the debit section will total everything from the calanders and-->
     <!--- subtract from credits. Display in center box labeled Monthly remainder-->
-    <div class="expenseList">
+
+ <!--   <div class="expenseList">
         <form>
             <label for="expense">Expense:</label>
             <input type="text" id="expense" name="expense">
@@ -50,7 +51,7 @@
                 <td>Expense 11</td>
                 <td>Expense 12</td>
             </tr>
-        </table>
+        </table> -->
     </div>
     <div class="container">
         
@@ -65,21 +66,21 @@
             <div class="leftOverScreen">
                 0
             </div>
-            LeftOver
+            Left Over
         </div>
 
         <div class="credits">
             <div class="creditsScreen">
                 0
             </div>
-            Credits
+            Income
         </div>
 
         <div class="calendarLayout">
             <ul>
-                <li class="prev">&#8592;</li>
-                <li class="next">&#8594;</li>
-                <li>Calendar<span style="font-size:18px"></span></li>
+                <li class="prev" onclick="prevMonth()">&#8592;</li>
+                <li class="next" onclick="nextMonth()">&#8594;</li>
+                <li id="monthName"><span style="font-size:18px"></span></li>
             </ul>
             <section class="calendar">
                 <div class="calendarRows">
